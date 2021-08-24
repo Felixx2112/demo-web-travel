@@ -1,0 +1,55 @@
+.sect-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  background-image: url("../../assets/images/img-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+
+.sect-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.sect-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sect-container > p:hover {
+  text-decoration: underline;
+}
+
+.sect-btns {
+  margin-top: 32px;
+}
+
+.sect-btns .btns {
+  margin: 6px;
+}
+
+.sect-btns .btns:hover {
+  background-color: transparent;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 960px) {
+  .sect-container {
+    font-size: 38px;
+    margin-top: -11px;
+  }
+}

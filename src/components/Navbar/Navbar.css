@@ -1,0 +1,88 @@
+:root {
+  --primary: #fff;
+  --btn-primary: ;
+}
+
+.navbar {
+  background-color: #242424;
+  height: 80px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.navbar-logo {
+  color: #fff;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.fa-artstation {
+  margin-left: 8px;
+  font-size: 28px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, auto);
+  list-style: none;
+  text-align: center;
+  width: 260vh;
+  justify-content: end;
+  margin-right: 80px;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 16px;
+  height: 100%;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline:hover {
+  background-color: #fff;
+  color: #242424;
+  padding: 8px 20px;
+  border: 1px solid var(--btn-primary);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
