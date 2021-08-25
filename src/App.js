@@ -5,7 +5,7 @@ import "./assets/css/normalize.css";
 import RouteTravel from "./routes";
 
 function App() {
-  return <RouteTravel />;
+  return <RouteTravel></RouteTravel>;
 }
 
 export default App;

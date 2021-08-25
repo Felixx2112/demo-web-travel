@@ -6,7 +6,6 @@
 }
 
 .home,
-.services,
 .products,
 .sign-in {
   display: flex;
@@ -22,7 +21,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  padding: 4rem;
+  text-align: center;
+}
+
+.services-cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.services-cards__wrapper {
+  margin: 50px 0 45px;
+}
+
+.services-cards__items {
+  margin-bottom: 24px;
 }
 
 .products {
